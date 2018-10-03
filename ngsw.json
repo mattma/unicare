@@ -1,0 +1,52 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "appData": {
+    "name": "unicare",
+    "description": "unicare transporation"
+  },
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/inline.c7a0177770844d51ea30.bundle.js",
+        "/main.73598af1009af210fbe6.bundle.js",
+        "/not-found.module.6c8fb7d47d32edc4484c.chunk.js",
+        "/polyfills.d05dda31fdfb90e3da59.bundle.js",
+        "/scripts.01d3bfb204cab94ea376.bundle.js",
+        "/styles.d23a41cd66a42626d20e.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "https:\\/\\/maps\\.googleapis\\.com\\/maps\\/api\\/js\\?key=AIzaSyAxe8462gPEQcieV8hd9E22wzvNF0h522k",
+        "https:\\/\\/code\\.jquery\\.com\\/jquery-3\\.2\\.1\\.min\\.js"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 864000000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/inline.c7a0177770844d51ea30.bundle.js": "29885a957623b370dfee8628c1820b382bdcbdd6",
+    "/main.73598af1009af210fbe6.bundle.js": "8126b84c9c768bc3c65892878d9ce9bd47405309",
+    "/not-found.module.6c8fb7d47d32edc4484c.chunk.js": "9198c1f9ff3f1541b4c0b2aec774a7c93800d58e",
+    "/polyfills.d05dda31fdfb90e3da59.bundle.js": "d5555a14505f426b91c0df0d3c2e4564645f05e8",
+    "/scripts.01d3bfb204cab94ea376.bundle.js": "07a3f3733bd82acca2aed54b13a394c4fec1e855",
+    "/styles.d23a41cd66a42626d20e.bundle.css": "1bfd6e6354f78038938856823238f0ca451f217f"
+  }
+}
